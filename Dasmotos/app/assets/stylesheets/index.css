@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700);
+
 body {
-  font-family: Helvetica;
+  font-family: Raleway;
 }
 
 #brushes h2 {
@@ -11,6 +13,19 @@ body {
 #paint span {
   color: blue;
   font-weight: bold;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.content img {
+    float: left;
+    margin-right: 10px;
+}
+
+#frames h2 {
+  background-color: lightcoral;
 }
 
 h2 {
@@ -25,10 +40,6 @@ header {
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-}
-
-#frames h2 {
-  background-color: lightcoral;
 }
 
 #paint h2 {
